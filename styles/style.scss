@@ -121,7 +121,7 @@ nav a{
 //section 4
 
 .sect-4{
-    margin-top: -6rem;
+   padding-top: 8rem;
 }
 
 .sect-4 h2{
@@ -134,7 +134,8 @@ nav a{
 }
 
 .container{
-    padding: 15% 30%;
+    width: 415px;
+    margin: auto;
  }
  
 
@@ -224,6 +225,7 @@ nav a{
 
 .sect-5{
     padding-bottom: 2rem;
+    padding-top: 8rem
 }
 
 .sect-5 h2{
@@ -294,17 +296,17 @@ nav a{
 
 .sect-5{
     padding-bottom: 1rem;
-    margin-top: -1.5rem;
+    
     
 }
 
 .sect-4{
-    padding-top: 6rem;
+    
 }
 
-.main-c{
-    padding-left: 1.4rem;
-}
+.projects{
+    width: 305px;
+ }
 
 
 }
@@ -336,7 +338,7 @@ nav a{
     width: 220px;
   }
 
- 
+
 
 }
 
@@ -356,11 +358,6 @@ nav a{
     .two-right h1{
         width: 400px;
     }
-
-    .main-c{
-        padding-left: 3.7rem;
-    }
-
 }
 
 //Projects
@@ -381,6 +378,10 @@ nav a{
         gap: 30px;
         grid-auto-rows: minmax(100px, auto);
         
+    }
+
+    .projects{
+        width: 125px;
     }
   }
 
