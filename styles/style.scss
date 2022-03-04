@@ -121,18 +121,108 @@ nav a{
 //section 4
 
 .sect-4{
-    padding-top: 9rem;
+    margin-top: -6rem;
 }
 
 .sect-4 h2{
     @include h2;
 }
 
+.sect-4 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.container{
+    padding: 15% 30%;
+ }
+ 
+
+ .main-c {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+     grid-auto-rows: minmax(100px, auto);
+     
+ }
+ 
+
+ .projects{
+     text-align: center;
+ }
+ 
+.projects p{
+    padding-top: 2.2rem;
+    
+}
+
+.p-h2{
+    padding-bottom: 3.4rem;
+}
+
+ 
+ /*one*/
+ .one{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+     background-color: #ffb3a6;
+       z-index: 1;
+      
+ }
+ 
+ 
+ /*two*/
+ .two{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+     background: #68e1fd;
+     
+     line-height: 42px;
+     padding: 0;
+ }
+ 
+ 
+ /*three*/
+ .three {
+     /*background-color: darkslateblue;*/
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+     background: #ffb3a6;
+     padding: 0;
+     border: none;
+     }
+ 
+ /*four*/
+ .four {
+     background-color: #68e1fd;
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+ }
+ 
+ /*five*/
+ .five{
+     background-color:#ffb3a6;
+     height: 120px;
+    width: 120px;
+    border-radius: 50%;
+ }
+ 
+ /*six*/
+ .six {
+     background-color: #68e1fd;
+     height: 120px;
+    width: 120px;
+    border-radius: 50%;
+ }
+
 
 //section 5
 
 .sect-5{
-    padding-top: 9rem;
     padding-bottom: 2rem;
 }
 
@@ -208,6 +298,13 @@ nav a{
     
 }
 
+.sect-4{
+    padding-top: 6rem;
+}
+
+.main-c{
+    padding-left: 1.4rem;
+}
 
 
 }
@@ -260,5 +357,30 @@ nav a{
         width: 400px;
     }
 
+    .main-c{
+        padding-left: 3.7rem;
+    }
+
 }
+
+//Projects
+@media only screen and (max-width: 1000px) {
+    .main-c {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main-c {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        
+    }
+  }
 
