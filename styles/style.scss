@@ -254,9 +254,66 @@ nav a{
 
 
 
+
+
+//x-large
+
+@media only screen and (min-width: 1450px) {
+    .sect-2 {
+        margin-left: 12rem;
+        margin-top: 1rem;
+    }
+
+    .two-right {
+        margin-left: 3.5rem;
+    }
+
+    .two-right h1{
+        width: 400px;
+    }
+}
+
+
+
+
+
+//large
+
+@media only screen and (min-width: 1200px) {
+    .two-left{
+        width: auto;
+    }
+  
+    .two-left img{
+      height: 600px;
+      width: 700px;
+  }
+
+  .two-right{
+      font-size: 1.7rem;
+      padding-left: 9rem;
+  }
+
+  .two-right h1{
+    width: 220px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 //small
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 878px) {
     .sect-2{
         flex-direction: column;
         align-items: center;
@@ -300,76 +357,28 @@ nav a{
     
 }
 
-.sect-4{
-    
-}
-
-.projects{
-    width: 305px;
- }
-
-
 }
 
 
 
-
-
-
-
-//large
-
-@media only screen and (min-width: 1200px) {
-    .two-left{
-        width: auto;
-    }
-  
-    .two-left img{
-      height: 600px;
-      width: 700px;
-  }
-
-  .two-right{
-      font-size: 1.7rem;
-      padding-left: 9rem;
-  }
-
-  .two-right h1{
-    width: 220px;
-  }
-
-
-
-}
-
-
-//x-large
-
-@media only screen and (min-width: 1450px) {
-    .sect-2 {
-        margin-left: 12rem;
-        margin-top: 1rem;
-    }
-
-    .two-right {
-        margin-left: 3.5rem;
-    }
-
-    .two-right h1{
-        width: 400px;
-    }
-}
-
-//Projects
-@media only screen and (max-width: 1000px) {
+//X-small
+@media only screen and (max-width: 840px) {
     .main-c {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
-        grid-auto-rows: minmax(100px, auto);
+        
         
     }
+
+    .projects{
+        width: 287px;
+    }
   }
+
+
+
+//XX-Small
 
   @media only screen and (max-width: 600px) {
     .main-c {
