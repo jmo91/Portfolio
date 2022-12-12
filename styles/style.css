@@ -1,12 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 html {
@@ -14,18 +13,12 @@ html {
 }
 
 .sect-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 1.4rem;
 }
 
 .sect-1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -48,19 +41,16 @@ nav a {
 .one-left {
   padding-left: 1rem;
 }
-
 .one-left:hover {
   color: #ffb3a6;
 }
 
 .one-right {
   padding-right: 1rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .sect-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -116,10 +106,8 @@ nav a {
 }
 
 .main-c {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   grid-auto-rows: minmax(100px, auto);
 }
@@ -160,6 +148,7 @@ nav a {
   /*background-color: darkslateblue;*/
   height: 120px;
   width: 120px;
+  line-height: 42px;
   border-radius: 50%;
   background: #ffb3a6;
   padding: 0;
@@ -202,12 +191,8 @@ nav a {
 }
 
 .sect-5 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .sect-5 li {
@@ -223,22 +208,15 @@ nav a {
 
 @media only screen and (min-width: 1450px) {
   .sect-2 {
-    /*
-        margin-left: 12rem;
-        margin-top: 1rem;
-        */
-    margin-left: 9rem;
-    margin-top: 1rem;
-    padding: 0 5rem;
+    padding-left: 3rem;
   }
   .two-right {
-    margin-left: 3.5rem;
+    padding-left: 1rem;
   }
   .two-right h1 {
     width: 400px;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .two-left {
     width: auto;
@@ -255,16 +233,10 @@ nav a {
     width: 220px;
   }
 }
-
 @media only screen and (max-width: 878px) {
   .sect-2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .two-left {
     width: inherit;
@@ -283,13 +255,8 @@ nav a {
     width: 300px;
   }
   .sect-5 ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
   .two-right {
@@ -299,31 +266,24 @@ nav a {
     padding-bottom: 1rem;
   }
 }
-
 @media only screen and (max-width: 840px) {
   .main-c {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
   .projects {
     width: 287px;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .main-c {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     grid-auto-rows: minmax(100px, auto);
   }
   .projects {
     width: 125px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

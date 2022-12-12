@@ -190,6 +190,7 @@ nav a{
      /*background-color: darkslateblue;*/
      height: 120px;
      width: 120px;
+     line-height: 42px;
      border-radius: 50%;
      background: #ffb3a6;
      padding: 0;
@@ -260,17 +261,12 @@ nav a{
 
 @media only screen and (min-width: 1450px) {
     .sect-2 {
-        /*
-        margin-left: 12rem;
-        margin-top: 1rem;
-        */
-        margin-left: 9rem;
-        margin-top: 1rem;
-        padding: 0 5rem;
+      padding-left: 3rem;
+      
     }
 
     .two-right {
-        margin-left: 3.5rem;
+        padding-left: 1rem;
     }
 
     .two-right h1{
